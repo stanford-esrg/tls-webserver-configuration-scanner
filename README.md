@@ -1,7 +1,7 @@
 Defaults Scanner
 =========
 
-This repo contains the Defaults' project scanner implementation under zgrab2 modules `Default` & `SMTP`
+This repo contains TLS Webserver Configuration Scanner implementation under zgrab2 modules `Default` & `SMTP`
 
 ## Building
 
@@ -14,8 +14,8 @@ go version go1.12.6 linux/amd6
 ```
 Verify that you have the correct version of go installed.
 ```
-$ git clone git@github.com:stanford-esrg/defaults-scanner.git
-$ cd defaults-scanner
+$ git clone git@github.com:stanford-esrg/tls-webserver-configuration-scanner.git
+$ cd tls-webserver-configuration-scanner
 $ go get github.com/zmap/zgrab2
 $ rm -rf $GOPATH/src/github.com/zmap/zcrypto/ $GOPATH/src/github.com/zmap/zgrab2/
 $ cp -r zcrypto/ zgrab2/ $GOPATH/src/github.com/zmap/
