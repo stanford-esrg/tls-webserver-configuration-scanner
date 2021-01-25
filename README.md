@@ -30,4 +30,4 @@ To run the scanner with X number of senders, with a uniform randomized start del
 cat list | zgrab2 defaults --senders=X --start-delay=Y --handshake-delay=Z > output.json
 ```
 
-The input list is a newline deliminated file with each line in this form: "[IPv4],[domain]" (for example "1.2.3.4,test.com"). The output is a newline deliminated json file.
+The input list is a newline deliminated file with each line in this form: `[IPv4],[domain]` (for example `1.2.3.4,test.com`). The output is a newline deliminated json file.
