@@ -1,7 +1,7 @@
-Defaults Scanner
+TLS Webserver Configuration Scanner
 =========
 
-This repo contains TLS Webserver Configuration Scanner implementation under zgrab2 modules `Default` & `SMTP`
+This repo contains TLS Webserver Configuration Scanner implementation under zgrab2 modules `Default`.
 
 ## Building
 
