@@ -1,0 +1,14 @@
+package sslv2
+
+var ciphersToNames map[CipherKind]string
+
+func init() {
+	ciphersToNames = make(map[CipherKind]string, 16)
+	ciphersToNames[SSL_CK_RC4_128_WITH_MD5] = "SSL_CK_RC4_128_WITH_MD5"
+	ciphersToNames[SSL_CK_RC4_128_EXPORT40_WITH_MD5] = "SSL_CK_RC4_128_EXPORT40_WITH_MD5"
+	ciphersToNames[SSL_CK_RC2_128_CBC_WITH_MD5] = "SSL_CK_RC2_128_CBC_WITH_MD5"
+	ciphersToNames[SSL_CK_RC2_128_CBC_EXPORT40_WITH_MD5] = "SSL_CK_RC2_128_CBC_EXPORT40_WITH_MD5"
+	ciphersToNames[SSL_CK_IDEA_128_CBC_WITH_MD5] = "SSL_CK_IDEA_128_CBC_WITH_MD5"
+	ciphersToNames[SSL_CK_DES_64_CBC_WITH_MD5] = "SSL_CK_DES_64_CBC_WITH_MD5"
+	ciphersToNames[SSL_CK_DES_192_EDE3_CBC_WITH_MD5] = "SSL_CK_DES_192_EDE3_CBC_WITH_MD5"
+}
